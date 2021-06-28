@@ -1,0 +1,36 @@
+:root {
+  --bs-p1: #f1faee;
+  --bs-p2: #457b9d;
+  --bs-s1: #e63946;
+  --bs-s2: #abc3c4;
+  --bs-s3: #1d3557;
+}
+body {
+  background-color: var(--bs-p1);
+}
+
+p {
+  color: var(--bs-p2);
+}
+h1 {
+  color: var(--bs-p2);
+}
+h3 {
+  color: var(--bs-p2);
+}
+li {
+  color: var(--bs-p2);
+  text-decoration: none;
+}
+ul{
+  text-decoration: none;
+}
+.button {
+  color: var(--bs-p1);
+  background-color: var(--bs-p2);
+}
+
+.img{
+  height: 300px;
+  width: 100%;
+}
