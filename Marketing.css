@@ -6,7 +6,7 @@
   --bs-s3: #1d3557;
 }
 body {
-  background-color: var(--bs-p1);
+  background-color: var(--bs-p1) !important;
 }
 
 p {
@@ -20,17 +20,33 @@ h3 {
 }
 li {
   color: var(--bs-p2);
-  text-decoration: none;
 }
-ul{
+ul {
   text-decoration: none;
+  list-style-type: none;
 }
 .button {
   color: var(--bs-p1);
   background-color: var(--bs-p2);
 }
 
-.img{
+.img {
   height: 300px;
   width: 100%;
+}
+
+.mt-f {
+  margin-top: 8rem !important;
+}
+
+.mt-b{
+  margin-bottom: 6rem  !important;
+}
+
+.li-m {
+  margin-bottom: 1.5rem;
+}
+
+.w-85{
+  width: 85% !important;
 }
