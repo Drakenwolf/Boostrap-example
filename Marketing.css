@@ -58,23 +58,23 @@ ul {
 
 .navbar-item {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 .subnav {
   display: none;
   position: absolute;
   padding: 0;
 }
-
+.navbar {
+  justify-content: space-around !important;
+}
 .navbar:hover > .navbar-item:hover > .subnav,
 .subnav:hover {
   display: block;
   top: 100%;
   left: 0;
   animation: fadeIn 0.5s;
-  background-color:var(--bs-p1);
+  background-color:var(--bs-s2);
 }
 
 .subnav-item {
@@ -94,4 +94,8 @@ ul {
 }
 .subnav-item:hover > a {
   color: white;
+}
+
+section.row.mx-auto.fs-5.text-center{
+  height: 500px !important;
 }
