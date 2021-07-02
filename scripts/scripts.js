@@ -62,26 +62,6 @@ const Ejercicio = () => {
   };
 };
 
-function mueveReloj() {
-  const reloj = document.getElementById("reloj");
-  if (reloj) {
-    momentoActual = new Date();
-    hora = momentoActual.getHours();
-    minuto = momentoActual.getMinutes();
-    segundo = momentoActual.getSeconds();
-
-    horaImprimible = `${hora} : ${minuto} : ${segundo} AM`;
-
-    if (hora > 12) {
-      horaImprimible = `${hora - 12} : ${minuto} : ${segundo} PM`;
-    }
-
-    reloj.innerHTML = horaImprimible;
-    console.log(horaImprimible);
-
-    setTimeout("mueveReloj()", 1000);
-  }
-}
 
 function get_current_position() {
   document.getElementById("map").innerHTML = "<p>Locating...</p>";
@@ -156,7 +136,6 @@ window.onload = () => {
   //    console.log(`message: ${message.value}`);
   //  });
   //}
-  //mueveReloj();
   get_current_position();
 };
 
