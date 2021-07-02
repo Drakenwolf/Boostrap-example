@@ -136,6 +136,7 @@ window.onload = () => {
   //    console.log(`message: ${message.value}`);
   //  });
   //}
+
   get_current_position();
 };
 

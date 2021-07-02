@@ -99,3 +99,7 @@ ul {
 section.row.mx-auto.fs-5.text-center{
   height: 500px !important;
 }
+
+label{
+  color: var(--bs-p2);
+}
